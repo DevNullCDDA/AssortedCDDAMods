@@ -1,0 +1,46 @@
+[
+  {
+    "id": "PortableRecycler",
+    "type": "TOOL",
+    "name": "Recycler",
+    "description": "A semi-portable recycling machine. Use it to deploy.",
+    "weight": "5000 g",
+    "volume": "2500 ml",
+    "price": 5000,
+    "to_hit": -4,
+    "bashing": 7,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "use_action": { "type": "deploy_furn", "furn_type": "DeployedRecycler" },
+    "qualities": [ [ "CONTAIN", 1 ] ]
+  },
+  {
+    "type": "furniture",
+    "id": "DeployedRecycler",
+    "name": "Recycler",
+    "description": "A semi-portable recycling machine. Use it to reduce single-material items down to component form. It is only around 80% efficient- You can put in 10 aluminum ingots, but you'll only get out 8's worth of metal, so remember to remove the contents before starting a new cycle. Counts as Simple Furniture when Deconstructed without tools.",
+    "symbol": "#",
+    "color": "red",
+    "looks_like": "t_recycler",
+    "move_cost_mod": 2,
+    "coverage": 35,
+    "max_volume": "1500 L",
+    "required_str": 8,
+    "flags": [ "PLACE_ITEM", "EASY_DECONSTRUCT", "NO_TOOL" ],
+    "deployed_item": "PortableRecycler",
+    "examine_action": "recycle_compactor",
+    "deconstruct": { "items": [ { "item": "PortableRecycler", "count": 1 } ] },
+    "bash": {
+      "str_min": 8,
+      "str_max": 30,
+      "sound": "metal screeching!",
+      "sound_fail": "clang!",
+      "items": [
+        { "item": "scrap", "count": [ 5, 15 ] },
+        { "item": "steel_chunk", "count": [ 2, 6 ] },
+        { "item": "sheet_metal_small", "count": [ 2, 6 ] }
+      ]
+    }
+  }
+]

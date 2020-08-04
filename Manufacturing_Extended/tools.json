@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CastingSmall",
+    "type": "TOOL",
+    "name": "small die-casting mold",
+    "description": "A mold for casting small metal items. Used as a tool in recipes.",
+    "weight": "5000 g",
+    "volume": "2500 ml",
+    "price": 5000,
+    "to_hit": -4,
+    "bashing": 7,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray"
+  },
+    {
+    "id": "CastingMedium",
+    "type": "TOOL",
+    "name": "medium die-casting mold",
+    "description": "A mold for casting moderately sized metal items. Used as a tool in recipes.",
+    "weight": "5000 g",
+    "volume": "2500 ml",
+    "price": 5000,
+    "to_hit": -4,
+    "bashing": 7,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray"
+  },
+      {
+    "id": "CastingLarge",
+    "type": "TOOL",
+    "name": "large die-casting mold",
+    "description": "A mold for casting cumbersomely large metal items. Used as a tool in recipes.",
+    "weight": "5000 g",
+    "volume": "2500 ml",
+    "price": 5000,
+    "to_hit": -4,
+    "bashing": 7,
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray"
+  }
+]

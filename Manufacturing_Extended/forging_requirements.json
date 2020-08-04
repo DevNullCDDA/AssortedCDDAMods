@@ -1,0 +1,8 @@
+[
+  {
+    "id": "smelting_standard",
+    "type": "requirement",
+    "//": "Forging of steel items (per steel chunk), charcoal forge is already a substitute for forge",
+    "tools": [ [ [ "water_clean", -1 ] ], [ [ "forge", 30 ] ] ]
+    }
+]

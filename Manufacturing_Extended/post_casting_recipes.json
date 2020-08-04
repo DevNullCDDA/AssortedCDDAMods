@@ -1,0 +1,58 @@
+[
+    {
+    "result": "frame",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "batch_time_factors": [ 75, 1 ],
+    "time": "20 m",
+    "autolearn": true,
+    "using": [ [ "smelting_standard", 1 ], [ "blacksmithing_standard", 1 ] ],
+    "tools": [ [ [ "CastingLarge", -1 ] ] ],
+    "components": [ [ [ "scrap", 240 ] ], [ [ "pipe", 4 ] ] ]
+  },
+      {
+    "result": "30gal_drum",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "batch_time_factors": [ 75, 1 ],
+    "time": "20 m",
+    "autolearn": true,
+    "using": [ [ "smelting_standard", 1 ], [ "blacksmithing_standard", 1 ] ],
+    "tools": [ [ [ "CastingLarge", -1 ] ] ],
+    "components": [ [ [ "scrap", 240 ] ], [ [ "pipe", 4 ] ] ]
+  },
+      {
+    "result": "spring",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "batch_time_factors": [ 75, 1 ],
+    "time": "30 m",
+    "autolearn": true,
+    "using": [ [ "smelting_standard", 1 ], [ "blacksmithing_standard", 1 ] ],
+    "tools": [ [ [ "CastingSmall", -1 ] ] ],
+    "components": [ [ [ "scrap", 48 ] ] ]
+  },
+        {
+    "result": "chain",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "batch_time_factors": [ 75, 1 ],
+    "time": "20 m",
+    "autolearn": true,
+    "using": [ [ "smelting_standard", 1 ], [ "blacksmithing_standard", 1 ] ],
+    "tools": [ [ [ "CastingMedium", -1 ] ] ],
+    "components": [ [ [ "scrap", 58 ] ] ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "steel_standard_smelting",
+    "type": "requirement",
+    "//": "Materials for use when forging items from steel",
+    "components": [ [ [ "steel_lump", 1 ], [ "steel_chunk", 3 ], [ "scrap", 16 ] ] ]
+  },
+  {
+    "id": "steel_tiny_smelting",
+    "type": "requirement",
+    "//": "Materials for use when forging atypically small items from steel",
+    "components": [ [ [ "steel_chunk", 2 ], [ "scrap", 5 ] ] ]
+  }
+]

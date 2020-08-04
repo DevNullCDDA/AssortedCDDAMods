@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "ManufacturingExtended",
+    "name": "Manufacturing Extended",
+    "authors": [ "Dev_Null" ],
+    "maintainers": [ "" ],
+    "description": "Adds tools to mass-produce and mass-produce items. Currently using debug recipes in-development, prior to proper balancing.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]
